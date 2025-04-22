@@ -16,7 +16,7 @@ function Banner({ currentMovie }) {
           src={currentMovie.image}
           alt={currentMovie.movieName}
         />
-        <div className="absolute bottom-0 left-0 right-0 rounded-lg p-6 md:p-6 lg:p-8 m-4 md:m-6 lg:m-8">
+        <div className="absolute bottom-0 left-0 right-0 rounded-xl p-6 md:p-6 lg:p-8 m-4 md:m-6 lg:m-8">
           <h1 className="text-4xl font-bold text-white mb-5 md:text-3xl lg:text-4xl">
             {currentMovie.movieName}
           </h1>

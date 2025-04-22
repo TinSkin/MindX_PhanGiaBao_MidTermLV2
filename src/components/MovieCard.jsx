@@ -3,7 +3,7 @@ import React from "react";
 function MovieCard({ movie, setCurrentMovie }) {
   return (
     <div
-      className="relative rounded-lg overflow-hidden shadow-md w-48 flex-shrink-0 h-[300px] mt-6"
+      className="relative rounded-xl overflow-hidden shadow-md w-48 flex-shrink-0 h-[300px] mt-6"
       onClick={() => setCurrentMovie(movie)}
     >
       <div className="absolute w-full h-full bg-gradient-to-b from-faded-primary to-card-faded-secondary bottom-"></div>
