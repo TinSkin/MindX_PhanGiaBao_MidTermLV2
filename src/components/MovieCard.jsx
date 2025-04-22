@@ -13,8 +13,8 @@ function MovieCard({ movie, setCurrentMovie }) {
         className="w-full h-full object-cover"
       />
       <div className="z-10 absolute p-2 top-0 left-0 right-0 bottom-0 flex flex-col justify-end items-center">
-        <p className="text-xs text-white text-center">Episode {movie.episode}</p>
-        <h3 className="text-center mt-3 text-sm font-semibold text-white">
+        <p className="text-base text-white text-center">Episode {movie.episode}</p>
+        <h3 className="text-center mt-3 text-base font-semibold text-white">
           {movie.movieName}
         </h3>
       </div>

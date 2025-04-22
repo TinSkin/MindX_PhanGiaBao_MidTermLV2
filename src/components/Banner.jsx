@@ -20,7 +20,7 @@ function Banner({ currentMovie }) {
           <h1 className="text-4xl font-bold text-white mb-5 md:text-3xl lg:text-4xl">
             {currentMovie.movieName}
           </h1>
-          <p className="text-gray-300 text-lg lg:text-xl sm:text-sm max-sm:hidden">
+          <p className="text-gray-300 text-base lg:text-base sm:text-sm max-sm:hidden">
             {currentMovie.description}
           </p>
         </div>
